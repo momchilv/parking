@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5dd0e3d67b697d3560cade54"},"type":"Platinum","discount":{"$numberInt":"20"}}
+{"_id":{"$oid":"5dd0e40b7b697d3560cade55"},"type":"Gold","discount":{"$numberInt":"15"}}
+{"_id":{"$oid":"5dd0e6697b697d3560cade56"},"type":"Silver","discount":"10"}

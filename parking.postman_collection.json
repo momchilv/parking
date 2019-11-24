@@ -1,0 +1,156 @@
+{
+	"variables": [],
+	"info": {
+		"name": "parking",
+		"_postman_id": "8b545193-e57f-9cc9-ed1f-dc8285572d79",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"url": "localhost:1111/parking-lab8/public/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "admin",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "login"
+			},
+			"response": []
+		},
+		{
+			"name": "check parking slots",
+			"request": {
+				"url": {
+					"raw": "localhost:1111/parking-lab8/public/check-free-places?api_token=f6fdffe48c908deb0f4c3bd36c032e72",
+					"host": [
+						"localhost"
+					],
+					"port": "1111",
+					"path": [
+						"parking-lab8",
+						"public",
+						"check-free-places"
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "f6fdffe48c908deb0f4c3bd36c032e72",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "check bill"
+			},
+			"response": []
+		},
+		{
+			"name": "check_bill",
+			"request": {
+				"url": {
+					"raw": "localhost:1111/parking-lab8/public/check-car?car_id=CB2798MC&api_token=f6fdffe48c908deb0f4c3bd36c032e72",
+					"host": [
+						"localhost"
+					],
+					"port": "1111",
+					"path": [
+						"parking-lab8",
+						"public",
+						"check-car"
+					],
+					"query": [
+						{
+							"key": "car_id",
+							"value": "CB2798MC",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "api_token",
+							"value": "f6fdffe48c908deb0f4c3bd36c032e72",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "check in car",
+			"request": {
+				"url": "localhost:1111/parking-lab8/public/car-enter",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"car_id\" : \"CB2798MC\", \"category\" : \"A\", \"discount\": \"Platinum\", \"api_token\": \"$2y$10$xvdP7H6dH9LA7tyVvPTyR.vsbQxjpAT/.peDUsuttLhMgr4cq3xZC\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "check out car",
+			"request": {
+				"url": "localhost:1111/parking-lab8/public/car-exit",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"car_id\": \"CB2799MC\", \"api_token\": \"$2y$10$xvdP7H6dH9LA7tyVvPTyR.vsbQxjpAT/.peDUsuttLhMgr4cq3xZC\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5dcfe4f0a6124d0d304d3c5b"},"category":"A","taken_places":{"$numberInt":"1"}}
+{"_id":{"$oid":"5dcfe514a6124d0d304d3c5c"},"category":"B","taken_places":{"$numberInt":"2"}}
+{"_id":{"$oid":"5dcfe52aa6124d0d304d3c5d"},"category":"C","taken_places":{"$numberInt":"4"}}

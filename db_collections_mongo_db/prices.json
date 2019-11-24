@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5dd0e04a7b697d3560cade51"},"category":"A","day_price":{"$numberInt":"3"},"night_price":{"$numberInt":"2"}}
+{"_id":{"$oid":"5dd0e1987b697d3560cade52"},"category":"B","day_price":{"$numberInt":"6"},"night_price":{"$numberInt":"4"}}
+{"_id":{"$oid":"5dd0e1c17b697d3560cade53"},"category":"C","day_price":{"$numberInt":"12"},"night_price":{"$numberInt":"8"}}

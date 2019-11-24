@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5dd87732b8240000f500300a"},"car_id":"CB2799MC","car_check_in_time":{"$numberInt":"1574467231"},"car_check_out_time":{"$numberInt":"1574467378"},"bill":"1.6"}
+{"_id":{"$oid":"5dd87746b8240000f500300b"},"car_id":"CB2799MC","car_check_in_time":{"$numberInt":"1574467395"},"car_check_out_time":{"$numberInt":"1574467398"},"bill":"1.6"}
