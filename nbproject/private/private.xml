@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/Helpers/Parking.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/config/app.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/Mongo/ServiceProvider.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/User.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/Http/Middleware/VerifyCsrfToken.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/Http/Controllers/ApiController.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/Mongo/Facade.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/app/Http/Middleware/Authenticate.php</file>
+            <file>file:/C:/xampp/htdocs/parking-lab8/routes/web.php</file>
+        </group>
+    </open-files>
+</project-private>
